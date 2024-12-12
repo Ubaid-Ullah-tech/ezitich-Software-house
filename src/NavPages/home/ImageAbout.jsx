@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 // Import images from your assets folder
-import image1 from "../../../src/assets/About.png";
-import image2 from "../../../src/assets/ubaid.jpg";
-import image3 from "../../../src/assets/ezilineee.jpg";
+import image1 from "../../assets/about.png";
+import image2 from "../../assets/ubaid.jpg";
+import image3 from "../../assets/ezilineee.jpg";
 
 const ImageViewer = () => {
     const images = [image1, image2, image3]; // Use imported images here
